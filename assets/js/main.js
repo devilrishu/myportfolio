@@ -165,6 +165,7 @@
                 slidesToShow: 3,
                 slidesToScroll: 1,
                 dots: false,
+                autoplay:true,
                 arrows: true,
                 cssEase: 'linear',
                 adaptiveHeight: true,
@@ -175,12 +176,14 @@
                         settings: {
                             slidesToShow: 2,
                             slidesToScroll: 1,
+                            autoplay:true,
                         }
                     },
                     {
                         breakpoint: 868,
                         settings: {
                             slidesToShow: 1,
+                            autoplay:true,
                             slidesToScroll: 1,
                         }
                     },
@@ -191,6 +194,7 @@
                             slidesToScroll: 1,
                             dots: true,
                             arrows: false,
+                            autoplay:true,
                         }
                     }
                 ]

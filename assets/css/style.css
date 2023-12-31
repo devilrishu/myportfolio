@@ -265,6 +265,16 @@ h6 a,
   color: #6c7279;
 }
 /* ==================web.csss===================== */
+@media only screen and (min-width: 768px) and (max-width: 2000px) {
+
+.restuarant_web_img{
+  height: 350px;
+  width: 100%;
+  margin-top: 50px;
+  object-fit:cover !important;
+}
+
+}
 .main_logo{
   height: 60px;
   width: 60px;
